@@ -7,7 +7,7 @@ num_letters = int(input("Enter the number of letters that you want: "))
 
 matching_words = []
 for word in words:
-    if len(word) == num_letters:
+    if len(word) >= num_letters:
         matching_words.append(word)
         
 if matching_words:
